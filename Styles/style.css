@@ -1,0 +1,102 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Alata", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #021c38;
+}
+.interface
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 500px;
+ }
+
+.navBar
+{
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+    top: 0;
+    z-index: 99;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021c38;
+}
+.header-area
+{
+    padding: 30px;
+    font-size: 25px;
+    padding-left: 100px;
+}
+.header-area a
+{
+    text-decoration: none;
+    color: white;
+}
+.header-links
+{
+    display: inline-block; 
+    padding-left: 600px;
+    font-size: 15px;  
+    font-weight: 400;
+}
+.header-links a
+{
+    padding-left: 30px;
+}
+.interface-content
+{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    margin-top: 130px;
+}
+.interface-content h1
+{
+    text-align: center;
+    font-size: 160px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    z-index: 1;
+    color: white;
+    opacity: 0.05;
+}
+.interface-content p
+{
+    position: relative;
+    top: 130px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+    font-size: 30px;
+    color: #0181F5;
+    font-family: "Alata", sans-serif;
+}
+.paragraph
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 60px;
+}
+.paragraph p
+{
+    font-size: 50px;
+    color: white;
+}
+
+.images
+{
+    width: 100%;
+    height: 500px;
+    background-color: #0181F5;
+}
