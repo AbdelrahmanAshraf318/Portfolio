@@ -12,7 +12,7 @@ body
     padding: 0px;
     margin: 0px;
     width: 100%;
-    height: 500px;
+    height: 550px;
  }
 
 .navBar
@@ -26,6 +26,7 @@ body
     left: 0;
     position: fixed;
     background-color: #021c38;
+    
 }
 .header-area
 {
@@ -97,6 +98,81 @@ body
 .images
 {
     width: 100%;
-    height: 500px;
-    background-color: #0181F5;
+    height: 1200px;
+}
+.subImages
+{
+    width: 100%;
+    height: 400px;
+}
+.image1
+{
+    width: 33.33333333333333%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.image1 img
+{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2);
+    transition: 1s all;
+}
+.text p
+{
+    font-size: 30px;
+    color: white;
+    padding-left: 50px;
+}
+.text h4
+{
+    color: #B3D9FC;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.round
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: -400px;
+    left: -400px;
+    background-color: #007bff;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.image1:hover img
+{
+    transform: scale(1);
+}
+
+.image1:hover .round
+{
+    bottom: -40px;
+    left: -40px;
+}
+
+.sentence-parent
+{
+    width: 100%;
+    height: 60px;
+}
+
+.sentence
+{
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+.sentence a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
 }
