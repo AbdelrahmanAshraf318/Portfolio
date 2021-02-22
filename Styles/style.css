@@ -138,7 +138,7 @@ body
     left: -400px;
     background-color: #007bff;
     border-radius: 50%;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .image1:hover img
@@ -401,4 +401,148 @@ body
 {
     padding-top: 10px;
     display: inline-block;
+}
+.testimonial
+{
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    position: relative;
+}
+.theContent
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.theContent h1
+{
+    font-size: 150px;
+    text-align: center;
+    -webkit-text-stroke: 1px #EFEFF1;
+    -webkit-text-fill-color: transparent;
+    font-family: "Alata", sans-serif;
+}
+.theContent img
+{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.theParagraph
+{
+    width: 34%;
+    margin-left: 450px;
+}
+
+.theParagraph p
+{
+    text-align: center!important;
+    font-size: 24px;
+}
+.data
+{
+    margin-top: 80px;
+    margin-left: 580px;
+}
+.data h3
+{
+    margin-left: 5px;
+    color: #0181F5;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Alata", sans-serif;
+}
+.data h4
+{
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #818692;
+    font-family: "Alata", sans-serif;
+}
+.talk
+{
+    width: 100%;
+    height: 500px;
+    background-color: #0181F5;
+    position: relative;
+}
+.talkContent
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.talkContent h1
+{
+    font-size: 150px;
+    -webkit-text-stroke: 0.5px #EFEFF1;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    position: relative;
+}
+.talkContent p
+{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    position: absolute;
+    top: 90px;
+    left: 300px;
+}
+.talkContent a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    position: absolute;
+    top: 270px;
+    left: 600px;
+    text-align: center;
+    transition: 1s;
+}
+.talkContent:hover a
+{
+    color: #0181F5;
+    background-color: white;
+}
+.footer
+{
+    width: 100%;
+    height: 600px;
+    background-color: #040e27;
+    position: relative;   
+}
+
+.footerData
+{
+    width: 25%;
+    height: 80%;
+    float: left;
+}
+
+.footerData h3
+{
+    color: white;
+    font-size: 20px;
+    padding: 90px;
+}
+.footerDataLink
+{
+    margin-left: 90px;
+}
+.footerDataLink  a
+{
+    font-size: 17px;
+    text-decoration: none;
+    color: grey;
+    display: block;
+    padding-top: 30px;
+}
+
+.footerDataLink:hover a
+{
+    color: white;
 }
